@@ -1,0 +1,26 @@
+#makefile for server
+
+#定义变量
+object = server
+midObject = mtmServer.o parseString.o mySocket.o sqlite3Helper.o\
+	process.o threadpool.o Debug.o
+installDir1 = /usr/local/bin
+installDir2 = /usr/bin
+
+#编译生成目标
+$(object):$(midObject)
+	$(CC) -g -Wall -o $(@) $^ -lpthread -lsqlite3
+.c.o:
+	$(CC) -c $<
+
+#伪目标
+all:$(object)
+clean:all
+	rm -f *.o 
+install:all
+	cp $(object) $(installDir1); cp $(object) $(installDir2)
+uninstall:clean
+	rm -f $(installMir1)/$(object) ; rm -f $(installMIr2)/$(object)
+#显示声明为为目标   避免生成的目标文件与实际文件的名字冲突
+.PHONY:all clean install uninstall 
+

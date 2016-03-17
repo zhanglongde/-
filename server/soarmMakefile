@@ -1,0 +1,12 @@
+#makefile for server
+armserver:mtmServer.o parseString.o mySocket.o sqlite3Helper.o process.o threadpool.o Debug.o
+	/opt/FriendlyARM/toolschain/4.4.3/bin/arm-linux-gcc -g -Wall  -o $(@) $^ -I./include -lpthread -lsqlite3  -L./lib/so
+.c.o:
+	/opt/FriendlyARM/toolschain/4.4.3/bin/arm-linux-gcc -g -Wall -c $< -I./include
+all:armserver
+clean:all
+	rm -f *.o 
+install:clean
+	cp armserver /usr/local/bin    \
+	cp armserver /usr/bin
+
