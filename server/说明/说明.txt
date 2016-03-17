@@ -1,0 +1,7 @@
+1、互斥锁下的多线程
+   mtmMakefile
+   mtmServer.c
+   accept一个套接字，临时建立一个线程，用完后，销毁该线程，并没有使用线程池
+   没有使用IO多路复用技术
+   对于整个talk_to_client互斥，包括buffer,temp以及sqlite3的IO操作
+   效率比较低
