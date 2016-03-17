@@ -1,0 +1,13 @@
+﻿
+.content{border-radius: 30px;}
+/*布局*/                             /*背景图片*/
+body {text-align:center;background :url(../../images/bg-images/bg-y.jpg)  repeat scroll 0px 0px transparent;font-size:20px;}
+/*body {text-align:center;background-color:#C7E8F9;font-size:20px;}*/
+.global_header{margin-top:30px;border-radius: 5px;}
+.global_main{margin:auto;width:920px;text-align:center;border-radius: 5px;}
+
+/*Login界面*/
+.loginDiv{color:White;text-align:center;font-weight:bold;line-height:39px;display:inline-block;}
+.loginDiv{margin-top:70px;}
+/*background-color:#A5DDF8;border:1px solid #ccc;height:200px;margin:30px;*/
+.tabler-row{height:50px;text-align:left;}

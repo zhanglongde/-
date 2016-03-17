@@ -1,0 +1,36 @@
+﻿
+/*布局*/                             /*背景图片*/
+body {text-align:center;font-size:20px;}
+/*body {text-align:center;background-color:#C7E8F9;font-size:20px;}*/
+.global_main{margin:auto;width:920px;text-align:left;}
+.search_header{margin-top:33px;margin-bottom:403px;}
+/*.global_header{margin:20px;}*/
+.feed{text-align:center;margin-top:33px;margin-bottom:33px;}
+.serverSet,.search_header{border:1px solid #ccc;}
+.serverSet{background-color:#4F97BF;color:White;height:40px;text-align:center;font-weight:bold;line-height:39px;}
+.search_header{background-color:#4F97BF;color:White;height:40px;text-align:center;font-weight:bold;line-height:39px;}
+/*搜索框*/
+a  .btn-post{display:block;width:50px;height:20px;line-height:20px;background:#eee;border:1px solid #ccc;text-align:center;}
+a  .btn-post:hover{background:#fff;}
+
+/*背景
+.global_main{background-color:white;}*/
+#gvStarCe{border-radius: 5px}
+#gvStarCeContainer{width:700px;border-radius: 5px}
+.col{background-color:#C7E8F9;border-radius: 4px}
+.acol{background-color:#eee;border-radius: 4px}
+.header{background-color:#4F97BF;color:White;height:40px;text-align:center;font-weight:bold;line-height:39px;}
+.col{display:inline-block;width:10%;}
+
+.csName{width:12%;}
+.csPosition{width:15%;}
+.csPlantName{width:15%;}
+.csWorktypeName{width:12%;}
+
+#tabs-sqliteBackup{background-color:#6DC873;border-radius: 5px;}
+/*  移到用户控件的内联样式
+#tblBackupDb{text-align:left;color:White;font-size:larger;margin:20px;border-radius: 5px;}
+#btnBackup{margin:10px;border-radius: 4px;}
+*/
+
+

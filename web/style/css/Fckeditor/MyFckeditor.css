@@ -1,0 +1,25 @@
+.csEditableList{margin:20px;text-align:left;background-color:#9BD7EE;display:none;
+                padding:10px;border: solid 1px #FAD00B;border-radius: 20px;}
+.csEditableHead{margin:20px;text-align:left;height:100px;background-color:#9BD7EE;
+                padding:10px;border: solid 1px #FAD00B;border-radius: 20px;}
+/*.csEditableHead:hover{border: solid 3px #6EAC2C;}
+.csEditableList:hover{border: solid 3px #6EAC2C;}*/
+
+.csEditableHeadContent{margin-left:10px;}
+.csEditableHeadLeft{float:left;width:50px;}
+.csEditableHeadRight{float:right;width:650px;}
+
+.EditableTitle{font-weight:800; color:white;margin-bottom:10px;
+               width:70px;}
+
+div.editable{border: solid 1px Transparent;margin:10px;
+             padding-top: 15px;padding-bottom: 15px;
+             padding-left: 15px;padding-right: 15px;}
+div.editable{border-color: #D4B770;border-radius: 5px;text-align:left;}
+
+div.editable:hover{border: solid 2px #FFEE62;
+                   border-radius: 5px;}
+                   
+.csBI resHeader{width:100px;}                  
+.csBI li{margin:10px;}
+.csResTextCell{margin:10px;}

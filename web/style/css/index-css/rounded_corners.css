@@ -1,0 +1,8 @@
+/*
+h1 { background: darkgreen; color: yellow; text-align: center; }
+.scrollTitleClass{ background: darkgreen; color: yellow; padding-top: 0.25em;}
+.invisible { display: none; }
+*/
+#rc{background: darkgreen; color: yellow; text-align: center;border-radius: 20px; }
+.roundCorner{background: darkgreen; color: yellow; text-align: center; border-radius: 20px;}
+.RoundCorner{border-radius: 8px}

@@ -1,0 +1,8 @@
+﻿
+
+.left{float:left;width: 200px;}
+.right{float:right;width: 200px;}
+.clear{clear:both;}
+.content{margin-left:200px;margin-right: 200px;}
+
+.content{text-align:center;background :url(../../images/bg-images/bg-y.jpg)  repeat scroll 0px 0px transparent;}

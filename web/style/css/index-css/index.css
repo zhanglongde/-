@@ -1,0 +1,120 @@
+﻿
+/*布局*/                             /*背景图片*/
+body {text-align:center; background-color:#9BD7EE;font-size:20px;}
+.global_main{margin:auto;text-align:left;height:1800px;}
+.global_footer{background-color:#E4E4E4;}
+#tabs{height:1700px;}
+
+.search_header{margin-top:33px;margin-bottom:403px;}
+.feed{text-align:center;margin-bottom:33px;}
+.serverSet,.search_header{border:1px solid #ccc;}
+.serverSet{background-color:#4F97BF;color:White;height:40px;text-align:center;font-weight:bold;line-height:39px;}
+.search_header{background-color:#4F97BF;color:White;height:40px;text-align:center;font-weight:bold;line-height:39px;}
+/*搜索框*/
+a  .btn-post{display:block;width:50px;height:20px;line-height:20px;background:#eee;border:1px solid #ccc;text-align:center;}
+a  .btn-post:hover{background:#fff;}
+.calendarDiv{background-color:#9BD7EE;}
+
+/*背景
+.global_main{background-color:white;}*/
+ .col{background-color:#C7E8F9;border-radius: 5px}
+ .acol{background-color:#eee;border-radius: 5px}
+ .col{display:inline-block;width:11%;border-radius: 5px}
+.header{background-color:#4F97BF;color:White;height:40px;text-align:center;
+        font-weight:bold;line-height:39px;border-radius: 5px}
+
+/*滚动选项卡*/
+#tabs-scroll-quality .scrollTitle{margin:10px;margin-top:30px;text-align:left;
+                                   width:200px;text-align:center;
+                                   background: #6EAC2C;color: white; 
+                                  }
+#tabs-scroll-quality .scrollTableHead{margin:5px;}
+#tabs-scroll-quality .detailRecordScroll{margin:5px;margin-top:20px;text-align:left;}
+#tabs-scroll-quality .detailRecordScroll ul{margin-top:40px;}
+#tabs-scroll-quality .detailRecordScroll li{border-bottom: 1px dotted #CCCCCC;
+                       background-color:#FEFAF2;
+                       margin-top:18px;
+                       }
+#tabs-scroll-class .scrollTitleClass{margin:10px;margin-top:30px;text-align:left; 
+                                     width:200px;text-align:center;
+                                     background: #6EAC2C;color: white; }/*background: darkgreen;*/
+#tabs-scroll-class .scrollClassTableHead{margin:5px;}
+#tabs-scroll-class .ScrollContentClass{margin:5px;margin-top:20px;text-align:left;}
+#tabs-scroll-class .ScrollContentClass ul{margin-top:40px;}
+#tabs-scroll-class .ScrollContentClass li{border-bottom: 1px dotted #CCCCCC;
+                       background-color:#FEFAF2;
+                       margin-top:18px;
+                       }
+ /*品质滚动框*/                      
+#tabs-scroll-quality{width:70%;text-align:center;}
+#tabs-scroll-quality .header{height:60px;}
+#tabs-scroll-quality .col{display:inline-block;width:18.8%;height:40px;
+                  text-align:center;line-height:39px;}
+#tabs-scroll-quality .csRowNumber{color:#DAC676;font-size:25px;font-weight:bold;}
+#tabs-scroll-quality .csQuality{color:#DAC676;font-size:25px;font-weight:200;}
+#tabs-scroll-quality .csNumber{color:#DAC676;font-size:25px;font-weight:200;}
+
+/*班次滚动框*/
+#tabs-scroll-class{text-align:center;}             
+#tabs-scroll-class .col{display:inline-block;width:18.9%;height:40px;
+                        text-align:center;line-height:39px;}
+#tabs-scroll-class   .classRange{}
+
+/*图表*/
+.graphHead{margin:10px 5px 15px 5px;}
+.graphTail{margin:10px 5px 15px 5px;}
+.csToExcel{text-align:right;}
+/*图表样式   饼状图*/
+.graphStyle{margin-top:80px;}
+.divLatestTenRecord{border:1px solid white;}
+/*.graphTail{color:White;}
+.graphHead{color:White;}*/
+.divPie .graph .graphFoot{}
+/*图表样式   柱状图*/
+
+.divBar{}
+
+/*主页*/
+#accordion h3{text-align:left;height:17px;}
+.notice 
+{    background-color:#F4F5F0;
+    text-align:left;margin:30px;
+}
+.news   
+{   background-color:#F4F5F0;
+    text-align:left;margin:30px;}
+    
+.ls-1 ul li 
+{
+    margin:5px;
+}
+.ls-1 ul li a {
+    }
+    
+    
+
+
+
+ /*.concreteDataScroll {width:100px;}  */                    
+/*按钮*/
+.divRevisePwd{margin:50px;text-align:left;
+              color: #D4B770;font-size: medium; font-weight: bold;}
+.revisePwdRow{margin:20px;}
+
+.csBI{text-align:center;}
+
+#tabs-scroll-class  li:hover{border: solid 6px #FFEE62;border-radius: 8px;background-color:#EEEEEE;}
+#tabs-scroll-quality li:hover{border: solid 6px #FFEE62;border-radius: 8px;background-color:#EEEEEE;}
+#tabs-newest5rows li:hover{border: dashed 6px #FFEE62;border-radius: 8px;background-color:#EEEEEE;}
+#tabs-search   li:hover{border: dashed 6px #FFEE62;border-radius: 8px;background-color:#EEEEEE;}
+
+
+
+
+.scrollTitleClass{border: solid 4px #FAEFA1;border-style:ridge; } 
+.scrollTitle {border: solid 4px #FAEFA1;border-style:ridge; }
+
+
+
+
+
