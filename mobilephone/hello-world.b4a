@@ -1,0 +1,60 @@
+﻿Version=1.90
+IconFile=
+FullScreen=False
+IncludeTitle=True
+NumberOfModules=0
+Package=helloworldzld.b4a.helloworld
+Label=helloworld-0417
+VersionCode=1
+VersionString=
+Orientation=unspecified
+CanInstallToExternalStorage=False
+DoNotOverwriteManifest=False
+ManifestCode=
+NumberOfFiles=1
+File1=guess.bal
+NumberOfLibraries=1
+Library1=core
+@EndOfDesignText@
+'Activity module
+Sub Process_Globals
+	'These global variables will be declared once when the application starts.
+	'These variables can be accessed from all modules.
+
+End Sub
+
+
+Sub Globals
+	'These global variables will be redeclared each time the activity is created.
+	'These variables can only be accessed from this module.
+	Dim MyNumber As Int
+	Dim EditText1 As EditText
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+
+'Log("hello world")
+'Msgbox("Hello world! ","First program")
+Activity.LoadLayout("guess")
+MyNumber=Rnd(1,5)
+End Sub
+
+Sub btnGuess_CLick
+    If EditText1.Text>MyNumber Then
+	ToastMessageShow("My number is samller.",False)
+	Else If EditText1.Text<MyNumber Then
+	ToastMessageShow("My number is larger.",False)
+	Else 
+	ToastMessageShow("well done",True)
+	End If
+	EditText1.SelectAll
+End Sub
+Sub Activity_Resume
+
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+
+End Sub
+
+
